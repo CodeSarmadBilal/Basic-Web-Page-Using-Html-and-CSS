@@ -1,0 +1,75 @@
+.logo img {
+    height: 40px;
+    width: 90px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .right ul {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+  }
+  .right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  button {
+    background-color: rgb(152, 201, 225);
+    color: azure;
+    border: none;
+    border-radius: 2px;
+    outline: rgb(222, 21, 31);
+    font-weight: 900;
+  }
+  .btn{
+    background-color: aquamarine;
+    padding: 14px 13px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+  }
+  .btn-green{
+    background-color: rgb(98, 176, 98);
+  }
+  .item-lang{
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+  }
+  .item{
+    padding: 13px;
+    border-radius: 33px;
+    border: 2px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .item-lang{
+    text-align: center;
+    padding-bottom: 36px;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  
